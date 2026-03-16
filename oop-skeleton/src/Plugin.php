@@ -4,6 +4,7 @@ namespace OopSkeleton;
 
 use OopSkeleton\Services\ExampleService;
 use OopSkeleton\Helpers\Logger;
+use OopSkeleton\Services\PostMetaService;
 
 /**
  * Main plugin class.
@@ -73,6 +74,7 @@ final class Plugin
         // Future services go here:
         // ( new MemberService( $logger ) )->register();
         // ( new AdminController( $logger ) )->register();
+        (new PostMetaService($logger))->register();
     }
 
     /**
