@@ -1,0 +1,13 @@
+{
+    "name": "ec/oop-skeleton",
+    "description": "OOP WordPress plugin scaffold",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "OopSkeleton\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}
