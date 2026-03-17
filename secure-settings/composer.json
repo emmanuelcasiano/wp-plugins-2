@@ -1,0 +1,13 @@
+{
+    "name": "ec/secure-settings",
+    "description": "Secure Settings Page (OOP)",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "SecureSettings\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}
