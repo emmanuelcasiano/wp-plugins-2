@@ -1,0 +1,11 @@
+{
+    "name": "ec/todo-list",
+    "autoload": {
+        "psr-4": {
+            "TodoList\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}
