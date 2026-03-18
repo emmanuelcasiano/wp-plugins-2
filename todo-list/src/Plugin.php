@@ -38,7 +38,7 @@ final class Plugin
     private function define_constants(): void
     {
         define('TDL_VERSION', '1.0.0');
-        define('TDL_DB_VERSION', '1.1');
+        define('TDL_DB_VERSION', '1.0');
         define('TDL_PATH', plugin_dir_path(dirname(__FILE__)));
     }
 }
