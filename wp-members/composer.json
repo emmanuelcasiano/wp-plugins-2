@@ -1,0 +1,13 @@
+{
+    "name": "yourname/wp-members",
+    "description": "Secure membership and user management plugin",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "WPMembers\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}
